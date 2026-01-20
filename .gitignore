@@ -15,3 +15,9 @@ Thumbs.db
 
 # Logs
 *.log
+# Ignore raw PCAP files
+data/raw/pcap/**/*.pcap
+data/raw/pcap/**/*.pcapng
+
+# Ignore processed datasets
+data/processed/*.npz
